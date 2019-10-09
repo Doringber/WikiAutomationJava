@@ -15,18 +15,18 @@
 	<APP_WAIT_ACTIVITY>2000</APP_WAIT_ACTIVITY>
 	<!-- WEB -->
 	<BrowserType>chrome</BrowserType>
-	<ChromedriverPath>/Users/doringber/Downloads/Chrome Downloads/selenium/chromedriver</ChromedriverPath>
-	<ChromedriverElectronPath>/Users/doringber/Downloads/Chrome Downloads/selenium/chromedriver-v3.1.2-mas-x64- electron/chromedriver</ChromedriverElectronPath>
-	<FirefoxdriverPath>/Users/doringber/Downloads/Chrome Downloads/selenium/geckodriver</FirefoxdriverPath>
-	<IEDriverServerpath>/Users/doringber/Downloads/Chrome Downloads/selenium/IEDriverServer</IEDriverServerpath>
+	<ChromedriverPath>/Users/doringber/Downloads/Chrome_Downloads/selenium/chromedriver</ChromedriverPath>
+	<ChromedriverElectronPath>/Users/doringber/Downloads/Chrome_Downloads/selenium/chromedriver-v3.1.2-mas-x64- electron/chromedriver</ChromedriverElectronPath>
+	<FirefoxdriverPath>/Users/doringber/Downloads/Chrome_Downloads/selenium/geckodriver</FirefoxdriverPath>
+	<IEDriverServerpath>/Users/doringber/Downloads/Chrome_Downloads/selenium/IEDriverServer</IEDriverServerpath>
 
 	<!-- API -->
 	<API_URL>http://localhost:8080</API_URL>
 	<API_Resource>/student</API_Resource>
 
 	<!-- Reports -->
-	<ReportFilePath>/Users/doringber/Downloads/Chrome Downloads/selenium/report_project_update/</ReportFilePath>
-	<ReportScreenPath>/Users/doringber/Downloads/Chrome Downloads/selenium/report_project_update/</ReportScreenPath>
+	<ReportFilePath>/Users/doringber/Downloads/Chrome_Downloads/selenium/report_project_update/</ReportFilePath>
+	<ReportScreenPath>/Users/doringber/Downloads/Chrome_Downloads/selenium/report_project_update/</ReportScreenPath>
 	<ReportFileName>TestExecution</ReportFileName>
 	
 	<!-- DataBase -->
@@ -36,7 +36,7 @@
 	<Excpted_Result>excpted_result</Excpted_Result>
 	
 	<!-- Electron -->
-	<ElectronApp>/Users/doringber/Downloads/Chrome Downloads/selenium/Electron API Demos.app/Contents/MacOS/Electron API Demos</ElectronApp>
+	<ElectronApp>/Users/doringber/Downloads/Chrome_Downloads/selenium/Electron API Demos.app/Contents/MacOS/Electron API Demos</ElectronApp>
 	
 
 

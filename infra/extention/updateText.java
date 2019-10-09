@@ -1,6 +1,5 @@
 package extention;
 
-import static org.junit.jupiter.api.Assertions.fail;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -13,6 +12,8 @@ import org.xml.sax.SAXException;
 import com.relevantcodes.extentreports.LogStatus;
 
 import utilies.commonOps;
+
+import static org.testng.Assert.fail;
 
 public class updateText extends commonOps {
 	public static void text(WebElement elem, String value)
