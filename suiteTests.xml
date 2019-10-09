@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="WebTest">
+		<parameter name="platform" value="web"></parameter>
+		<classes>
+			<class name="tests.wikiSearch" />
+		</classes>
+	</test>
+	<!-- Test -->
+	<test name="APItest">
+		<parameter name="platform" value="api"></parameter>
+		<classes>
+			<class name="tests.studens" />
+		</classes>
+	</test>
+	<test name="Electorntest">
+		<parameter name="platform" value="electron"></parameter>
+		<classes>
+			<class name="tests.electronDemo" />
+		</classes>
+	</test>
+<!-- 	<test name="Mobile">
+		<parameter name="platform" value="Mobile"></parameter>
+		<classes>
+			<class name="tests.imdb_test_moblie" />
+		</classes>
+	</test> -->
+</suite> <!-- Suite -->

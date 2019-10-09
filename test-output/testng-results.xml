@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="5" failed="0" ignored="0" total="5" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="150" started-at="2019-10-09T13:30:01Z" finished-at="2019-10-09T13:30:01Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="wikiSearch.test01_searchWiki()[pri:0, instance:tests.wikiSearch@67117f44]" name="test01_searchWiki" class="tests.wikiSearch"/>
+        <method signature="wikiSearch.test02_dorpWiki()[pri:0, instance:tests.wikiSearch@67117f44]" name="test02_dorpWiki" class="tests.wikiSearch"/>
+      </group> <!-- Sanity -->
+      <group name="DataBase">
+        <method signature="wikiSearch.test02_dbQrueyWiki()[pri:0, instance:tests.wikiSearch@67117f44]" name="test02_dbQrueyWiki" class="tests.wikiSearch"/>
+      </group> <!-- DataBase -->
+    </groups>
+    <test name="WebTest" duration-ms="102" started-at="2019-10-09T13:30:01Z" finished-at="2019-10-09T13:30:01Z">
+      <class name="tests.wikiSearch">
+        <test-method status="FAIL" signature="startSession(java.lang.String)[pri:0, instance:tests.wikiSearch@67117f44]" name="startSession" is-config="true" duration-ms="93" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: /Users/doringber/Downloads/Chrome Downloads/selenium/chromedriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/doringber/Downloads/Chrome Downloads/selenium/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:618)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:124)
+	at utilies.commonOps.initChromeDriver(commonOps.java:98)
+	at utilies.commonOps.initBrowesr(commonOps.java:58)
+	at utilies.commonOps.startSession(commonOps.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:658)
+	at org.testng.TestRunner.run(TestRunner.java:626)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.TestNG.privateMain(TestNG.java:1459)
+	at org.testng.TestNG.main(TestNG.java:1428)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method status="SKIP" signature="test01_searchWiki()[pri:0, instance:tests.wikiSearch@67117f44]" name="test01_searchWiki" duration-ms="0" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: /Users/doringber/Downloads/Chrome Downloads/selenium/chromedriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/doringber/Downloads/Chrome Downloads/selenium/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:618)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:124)
+	at utilies.commonOps.initChromeDriver(commonOps.java:98)
+	at utilies.commonOps.initBrowesr(commonOps.java:58)
+	at utilies.commonOps.startSession(commonOps.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:658)
+	at org.testng.TestRunner.run(TestRunner.java:626)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.TestNG.privateMain(TestNG.java:1459)
+	at org.testng.TestNG.main(TestNG.java:1428)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_searchWiki -->
+        <test-method status="SKIP" signature="doAfterTest()[pri:0, instance:tests.wikiSearch@67117f44]" name="doAfterTest" is-config="true" duration-ms="0" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTest -->
+        <test-method status="SKIP" signature="test02_dbQrueyWiki()[pri:0, instance:tests.wikiSearch@67117f44]" name="test02_dbQrueyWiki" duration-ms="0" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: /Users/doringber/Downloads/Chrome Downloads/selenium/chromedriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/doringber/Downloads/Chrome Downloads/selenium/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:618)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:124)
+	at utilies.commonOps.initChromeDriver(commonOps.java:98)
+	at utilies.commonOps.initBrowesr(commonOps.java:58)
+	at utilies.commonOps.startSession(commonOps.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:658)
+	at org.testng.TestRunner.run(TestRunner.java:626)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.TestNG.privateMain(TestNG.java:1459)
+	at org.testng.TestNG.main(TestNG.java:1428)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_dbQrueyWiki -->
+        <test-method status="SKIP" signature="doBeforeTest(java.lang.reflect.Method)[pri:0, instance:tests.wikiSearch@67117f44]" name="doBeforeTest" is-config="true" duration-ms="0" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeTest -->
+        <test-method status="SKIP" signature="doBeforeTest(java.lang.reflect.Method)[pri:0, instance:tests.wikiSearch@67117f44]" name="doBeforeTest" is-config="true" duration-ms="0" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeTest -->
+        <test-method status="SKIP" signature="doAfterTest()[pri:0, instance:tests.wikiSearch@67117f44]" name="doAfterTest" is-config="true" duration-ms="0" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTest -->
+        <test-method status="SKIP" signature="doBeforeTest(java.lang.reflect.Method)[pri:0, instance:tests.wikiSearch@67117f44]" name="doBeforeTest" is-config="true" duration-ms="0" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeTest -->
+        <test-method status="SKIP" signature="test02_dorpWiki()[pri:0, instance:tests.wikiSearch@67117f44]" name="test02_dorpWiki" duration-ms="0" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: /Users/doringber/Downloads/Chrome Downloads/selenium/chromedriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/doringber/Downloads/Chrome Downloads/selenium/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:618)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:124)
+	at utilies.commonOps.initChromeDriver(commonOps.java:98)
+	at utilies.commonOps.initBrowesr(commonOps.java:58)
+	at utilies.commonOps.startSession(commonOps.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:658)
+	at org.testng.TestRunner.run(TestRunner.java:626)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.TestNG.privateMain(TestNG.java:1459)
+	at org.testng.TestNG.main(TestNG.java:1428)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_dorpWiki -->
+        <test-method status="SKIP" signature="doAfterTest()[pri:0, instance:tests.wikiSearch@67117f44]" name="doAfterTest" is-config="true" duration-ms="0" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTest -->
+        <test-method status="SKIP" signature="closeSession()[pri:0, instance:tests.wikiSearch@67117f44]" name="closeSession" is-config="true" duration-ms="0" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- tests.wikiSearch -->
+    </test> <!-- WebTest -->
+    <test name="APItest" duration-ms="5" started-at="2019-10-09T13:30:01Z" finished-at="2019-10-09T13:30:01Z">
+      <class name="tests.studens">
+        <test-method status="FAIL" signature="startSession(java.lang.String)[pri:0, instance:tests.studens@73035e27]" name="startSession" is-config="true" duration-ms="4" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[api]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[io/restassured/RestAssured]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: io/restassured/RestAssured
+	at utilies.commonOps.initAPI(commonOps.java:119)
+	at utilies.commonOps.startSession(commonOps.java:195)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:658)
+	at org.testng.TestRunner.run(TestRunner.java:626)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.TestNG.privateMain(TestNG.java:1459)
+	at org.testng.TestNG.main(TestNG.java:1428)
+Caused by: java.lang.ClassNotFoundException: io.restassured.RestAssured
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method status="SKIP" signature="closeSession()[pri:0, instance:tests.studens@73035e27]" name="closeSession" is-config="true" duration-ms="0" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+        <test-method status="SKIP" signature="doBeforeTest(java.lang.reflect.Method)[pri:0, instance:tests.studens@73035e27]" name="doBeforeTest" is-config="true" duration-ms="0" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeTest -->
+        <test-method status="SKIP" signature="doAfterTest()[pri:0, instance:tests.studens@73035e27]" name="doAfterTest" is-config="true" duration-ms="0" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTest -->
+        <test-method status="SKIP" signature="test03_VerifyStudentCreated()[pri:0, instance:tests.studens@73035e27]" name="test03_VerifyStudentCreated" duration-ms="0" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[io/restassured/RestAssured]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: io/restassured/RestAssured
+	at utilies.commonOps.initAPI(commonOps.java:119)
+	at utilies.commonOps.startSession(commonOps.java:195)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:658)
+	at org.testng.TestRunner.run(TestRunner.java:626)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.TestNG.privateMain(TestNG.java:1459)
+	at org.testng.TestNG.main(TestNG.java:1428)
+Caused by: java.lang.ClassNotFoundException: io.restassured.RestAssured
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03_VerifyStudentCreated -->
+      </class> <!-- tests.studens -->
+    </test> <!-- APItest -->
+    <test name="Electorntest" duration-ms="15" started-at="2019-10-09T13:30:01Z" finished-at="2019-10-09T13:30:01Z">
+      <class name="tests.electronDemo">
+        <test-method status="PASS" signature="starSuite()[pri:0, instance:tests.electronDemo@25618e91]" name="starSuite" is-config="true" duration-ms="151" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starSuite -->
+        <test-method status="FAIL" signature="startSession(java.lang.String)[pri:0, instance:tests.electronDemo@25618e91]" name="startSession" is-config="true" duration-ms="14" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[electron]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: /Users/doringber/Downloads/Chrome Downloads/selenium/chromedriver-v3.1.2-mas-x64- electron/chromedriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/doringber/Downloads/Chrome Downloads/selenium/chromedriver-v3.1.2-mas-x64- electron/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:618)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:146)
+	at utilies.commonOps.initElectronDriver(commonOps.java:130)
+	at utilies.commonOps.startSession(commonOps.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:658)
+	at org.testng.TestRunner.run(TestRunner.java:626)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.TestNG.privateMain(TestNG.java:1459)
+	at org.testng.TestNG.main(TestNG.java:1428)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method status="SKIP" signature="test04_GetInfoElectron()[pri:0, instance:tests.electronDemo@25618e91]" name="test04_GetInfoElectron" duration-ms="0" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: /Users/doringber/Downloads/Chrome Downloads/selenium/chromedriver-v3.1.2-mas-x64- electron/chromedriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/doringber/Downloads/Chrome Downloads/selenium/chromedriver-v3.1.2-mas-x64- electron/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:618)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:146)
+	at utilies.commonOps.initElectronDriver(commonOps.java:130)
+	at utilies.commonOps.startSession(commonOps.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:658)
+	at org.testng.TestRunner.run(TestRunner.java:626)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.TestNG.privateMain(TestNG.java:1459)
+	at org.testng.TestNG.main(TestNG.java:1428)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_GetInfoElectron -->
+        <test-method status="SKIP" signature="doBeforeTest(java.lang.reflect.Method)[pri:0, instance:tests.electronDemo@25618e91]" name="doBeforeTest" is-config="true" duration-ms="0" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeTest -->
+        <test-method status="SKIP" signature="doAfterTest()[pri:0, instance:tests.electronDemo@25618e91]" name="doAfterTest" is-config="true" duration-ms="0" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTest -->
+        <test-method status="SKIP" signature="closeSession()[pri:0, instance:tests.electronDemo@25618e91]" name="closeSession" is-config="true" duration-ms="0" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+        <test-method status="SKIP" signature="afterSutie()[pri:0, instance:tests.electronDemo@25618e91]" name="afterSutie" is-config="true" duration-ms="0" started-at="2019-10-09T16:30:01Z" finished-at="2019-10-09T16:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSutie -->
+      </class> <!-- tests.electronDemo -->
+    </test> <!-- Electorntest -->
+  </suite> <!-- Suite -->
+</testng-results>
