@@ -117,6 +117,11 @@
       <root url="jar://$USER_HOME$/Downloads/Chrome_Downloads/selenium/restassured/tagsoup-1.2.1.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/Chrome_Downloads/selenium/restassured/uri-template-0.9.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/Chrome_Downloads/selenium/restassured/xml-path-3.2.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Chrome_Downloads/selenium/mysql-connector-java-8.0.15/lib/slf4j-api-1.6.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Chrome_Downloads/selenium/mysql-connector-java-8.0.15/lib/protobuf-java-3.6.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Chrome_Downloads/selenium/mysql-connector-java-8.0.15/lib/jboss-common-jdbc-wrapper.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Chrome_Downloads/selenium/mysql-connector-java-8.0.15/lib/c3p0-0.9.1-pre6.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/Chrome_Downloads/selenium/mysql-connector-java-8.0.15" />
     </CLASSES>
     <JAVADOC>
       <root url="jar:///Applications/AppiumStudio/clients/appium/java/appium-seetest-extension-12.5-javadoc.zip!/" />
@@ -124,6 +129,18 @@
     <SOURCES>
       <root url="jar://$USER_HOME$/Downloads/Chrome_Downloads/selenium/restassured/jaxb-osgi-2.2.10.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/Chrome_Downloads/selenium/restassured/jsr305-3.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Chrome_Downloads/selenium/mysql-connector-java-8.0.15/lib/jboss-common-jdbc-wrapper-src.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/Chrome_Downloads/selenium/mysql-connector-java-8.0.15/src/build/java" />
+      <root url="file://$USER_HOME$/Downloads/Chrome_Downloads/selenium/mysql-connector-java-8.0.15/src/demo/java" />
+      <root url="file://$USER_HOME$/Downloads/Chrome_Downloads/selenium/mysql-connector-java-8.0.15/src/generated/java" />
+      <root url="file://$USER_HOME$/Downloads/Chrome_Downloads/selenium/mysql-connector-java-8.0.15/src/legacy/java" />
+      <root url="file://$USER_HOME$/Downloads/Chrome_Downloads/selenium/mysql-connector-java-8.0.15/src/main/core-api/java" />
+      <root url="file://$USER_HOME$/Downloads/Chrome_Downloads/selenium/mysql-connector-java-8.0.15/src/main/core-impl/java" />
+      <root url="file://$USER_HOME$/Downloads/Chrome_Downloads/selenium/mysql-connector-java-8.0.15/src/main/protocol-impl/java" />
+      <root url="file://$USER_HOME$/Downloads/Chrome_Downloads/selenium/mysql-connector-java-8.0.15/src/main/user-api/java" />
+      <root url="file://$USER_HOME$/Downloads/Chrome_Downloads/selenium/mysql-connector-java-8.0.15/src/main/user-impl/java" />
+      <root url="file://$USER_HOME$/Downloads/Chrome_Downloads/selenium/mysql-connector-java-8.0.15/src/test/java" />
     </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Downloads/Chrome_Downloads/selenium/mysql-connector-java-8.0.15" recursive="false" />
   </library>
 </component>
